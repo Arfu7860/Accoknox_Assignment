@@ -200,7 +200,7 @@ eksctl delete cluster --name wisecow-cluster --region us-west-2
 1. **Replace placeholders:**
    - `ACCOUNT-ID`: Your AWS account ID
    - `REGION`: Your AWS region
-   - `tejaslamkhade.xyz`: Your domain name
+   - `arfu.xyz`: Your domain name
    - `your-email@domain.com`: Your email for Let's Encrypt
 
 2. **Security Groups:** Ensure ALB security group allows HTTP (80) and HTTPS (443) traffic
