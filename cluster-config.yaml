@@ -1,0 +1,77 @@
+- AccessConfig:
+    AuthenticationMode: API_AND_CONFIG_MAP
+    BootstrapClusterCreatorAdminPermissions: null
+  Arn: arn:aws:eks:us-west-2:114035886766:cluster/wisecow-cluster
+  CertificateAuthority:
+    Data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJR28wN1ZOeGVUUmd3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TlRFd01UWXhOVEV6TlRKYUZ3MHpOVEV3TVRReE5URTROVEphTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUN5L1dSeXBGTzVvQ2hLWnJpV3hHNkxzTGxqRjhybDRTRHQ0cVl6QXFxWWd3K1p6R3ZEZWtZS2Q3dGYKbWQrYkE3Nk5xYi9sWFNPUFNKaUI3WGRzRVowTkJiZyt2SDFBVW8xN2gyajY1QjRLbmh2T1BnNEJYNmdDU0FlYQpOTFNtdXZzd3BLOEJlWjN1YTNidE5EaU83L2k4R25JMkV5SkptRXFKZVVscks5ZmxBV1RJRm9qUlBLYUJpZ1NECmFNdUt2SERCZE9tKzNSRHdFQ1lINnV0NWpzaytURmZGM2FwYnpwZUgwbkVTZkYwb1BWeWNjWXRIQlNROUZXMlUKRVpnU2pVTUNuNGs2aEJ1b1l3NzVkanRoWkZEVm9iY1NtQjdWZHFVWkpkRTRYaFdPMDhpS2h5a0prcTA3WnZGdApxclFZOUZwWm5XQmR0YXUrT1FTWWJsMlRjNVk1QWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJTS0pSajVoeFhUZlZPZTgrMDRhQTN0cmZEWEp6QVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQkdPZExwS29WRgpNaEFyZE1qTkdudkJ1NkFKSEVSaXVSTjBoY1BuQVBkV012ak5xUDVNSVFPSWdaOFhYa1dtSWF0Q3ZGeStXTm9UCkJlK0t6WDhvblZNZnRqK2VWaW9MOUhocThqTkVYNnhSK08yWFNIak5nTTFGTkM3eU8wcys2dWVCSUM1TDNHRUQKMURYS1M5dXZDNGpxY2RyU0tIZzJkajkvWDNlbUVxR0p2bWpReEQ4RzBWTGhGRWlhdjhpMXZabmVhQm1jV2R5NAowT0Rjcm1HUkg5RnpnbFBYblZCbWJWN0lZTHQyUDgzRkQvUU1JU3YxZitPT2gvU2pIMnFVYXVFVzNSYzdHMXpHCk5KTVV2NkZILzFaMmd0SllPazB6a3ZoVThCaDJ0amp4QjdnUFlxKy9WNWpHV2tBM2RCL2lLRlh0bDQxZmlFOU8KOU9EWjZFdEo5Qk9CCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+  ClientRequestToken: null
+  ComputeConfig: null
+  ConnectorConfig: null
+  CreatedAt: "2025-10-16T15:13:01.795Z"
+  DeletionProtection: false
+  EncryptionConfig: null
+  Endpoint: https://78D6BD7DFAFBFE4018EC36CF877E4DDD.gr7.us-west-2.eks.amazonaws.com
+  Health: null
+  Id: null
+  Identity:
+    Oidc:
+      Issuer: https://oidc.eks.us-west-2.amazonaws.com/id/78D6BD7DFAFBFE4018EC36CF877E4DDD
+  KubernetesNetworkConfig:
+    ElasticLoadBalancing:
+      Enabled: false
+    IpFamily: ipv4
+    ServiceIpv4Cidr: 10.100.0.0/16
+    ServiceIpv6Cidr: null
+  Logging:
+    ClusterLogging:
+    - Enabled: false
+      Types:
+      - api
+      - audit
+      - authenticator
+      - controllerManager
+      - scheduler
+  Name: wisecow-cluster
+  OutpostConfig: null
+  PlatformVersion: eks.25
+  RemoteNetworkConfig: null
+  ResourcesVpcConfig:
+    ClusterSecurityGroupId: sg-0c0fc1382a65909a5
+    EndpointPrivateAccess: false
+    EndpointPublicAccess: true
+    PublicAccessCidrs:
+    - 0.0.0.0/0
+    SecurityGroupIds:
+    - sg-0502453dc915309e4
+    SubnetIds:
+    - subnet-06c66af119161242e
+    - subnet-0d2d15aae891de8e0
+    - subnet-01bbcced9ede24f45
+    - subnet-0c8a6d97a5413cd3a
+    - subnet-0d8fbbfdba0ed66aa
+    - subnet-085056f403c361763
+    VpcId: vpc-025f72a0ff43b04ae
+  RoleArn: arn:aws:iam::114035886766:role/eksctl-wisecow-cluster-cluster-ServiceRole-LiJqIpqIYSRz
+  Status: ACTIVE
+  StorageConfig: null
+  Tags:
+    Name: eksctl-wisecow-cluster-cluster/ControlPlane
+    alpha.eksctl.io/cluster-name: wisecow-cluster
+    alpha.eksctl.io/cluster-oidc-enabled: "true"
+    alpha.eksctl.io/eksctl-version: 0.215.0
+    aws:cloudformation:logical-id: ControlPlane
+    aws:cloudformation:stack-id: arn:aws:cloudformation:us-west-2:114035886766:stack/eksctl-wisecow-cluster-cluster/8c24a100-aaa2-11f0-8628-0a512da58efd
+    aws:cloudformation:stack-name: eksctl-wisecow-cluster-cluster
+    eksctl.cluster.k8s.io/v1alpha1/cluster-name: wisecow-cluster
+  UpgradePolicy:
+    SupportType: EXTENDED
+  Version: "1.32"
+  ZonalShiftConfig: null
+addons:
+  - name: vpc-cni
+    version: latest
+    PodIdentityAssociations:
+      - roleARN: arn:aws:iam::114035886766:role/VPC-CNI-Role
+        serviceAccountName: aws-node
+        namespace: kube-system
+
